@@ -1,0 +1,11 @@
+{
+    "name": "undetectable adblock",
+    "version": "1.0",
+    "description": "an undetectable adblock",
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    
+    "manifest_version": 2
+}
