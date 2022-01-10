@@ -14,6 +14,7 @@ const blockfilter = [
 	"*://*.a.adtng.com/*",
 	"*://*.adroll.com*",
 	"*://*.ads.twitter.com*"
+	"*://*.ads.microsoft.com*"
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
